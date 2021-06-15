@@ -1,0 +1,66 @@
+
+body{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+header{
+    border: white solid;
+}
+.Menu{
+    border: white solid;
+    padding: 2%;
+    margin: 0%;
+    background-color: rgb(255, 194, 194);
+}
+.logoHead{
+    border: white solid;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+li{
+    padding-inline-end: 5%;
+    list-style-type: none;
+}
+.MenuList{
+    align-items: left;
+    display: flex;
+    font-size: 1.2em;
+}
+.faq{
+    padding: 3%;
+    margin: 2% 3%;
+    font-size: 1.2em;
+}
+.Search{
+    border: white solid;
+    padding: 2%;
+    margin: 0%;
+    font-size: 1.2em;
+    background-color: rgb(255, 194, 194);
+}
+
+
+main{
+    width: 100%;
+}
+.mainBody{
+    margin:0%  10%;
+    width: 80%;
+    height: 80%;
+}
+
+
+
+footer{
+    margin-top: 2%;
+    padding: 1%;
+    background-color:rgb(255, 124, 124);
+}
+
+
+
+

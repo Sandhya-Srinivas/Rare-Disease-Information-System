@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update RDinfo</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="updatePage.css"/>
+    	<script>
+    	function validateForm() {
+    		var x=document.forms["myForm"]["RDname"].value;
+    		if((x==="") || (x===" ") || (x==="\t")|| (x.match(/^ *$/)!==null) || (x===null)){
+    			alert("Please fill this field");
+    			return false;
+    		}
+    		if(x != x.trim()){ 
+    			alert("Please remove extra spaces");
+    			return false;
+    		}
+	    	if(x.search(/[^A-Za-z -]/)!=-1){
+	    		alert('Invalid disease name');
+	   		return false;
+	   	}
+    	}
+    	</script>
+    </head>
+    <body>
+        <header><div ><img src="./Images/RDinfoHeading.PNG" alt="Rare Disease Information System" class = "logoHead"></div></header>
+        <main>
+            <div class="dropDown" >
+                <p>Insert</p>
+                <div class="dropDown-content">
+                    <form name="myForm" method="POST" action="insertPHP.php" onsubmit="return validateForm()">
+                        <fieldset>
+                            <legend>Insert into RDinfo system</legend>
+                            <div>
+                                <label>Enter the disease name: </label>
+                                <input type="text" name='RDname' required>
+                                <br/><br/>
+                                <label>Select category </label>
+                                <select name="type" >
+                                    <option value=0>Non-genetic/unknown</option>
+                                    <option value=1>Genetic</option>
+                                </select>
+                                <br/><br/>
+                                <button type="submit">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p><a href="mainPage.html">Home</a>|<a href="listPHP.php">List</a>|<a href="updatePage.html">Update</a></p>
+            <div><p>No copyrights &copy; </p></div>
+        </footer>
+    </body>
+</html>

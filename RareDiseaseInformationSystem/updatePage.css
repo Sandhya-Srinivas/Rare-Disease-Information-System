@@ -1,0 +1,66 @@
+
+body{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.logoHead{
+    border: white solid;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+main{
+    background-color: rgb(255, 220, 219);
+    margin: 0% 10% 0% 10%;
+    padding: 2%;
+    font-size: 1.2em;
+}
+footer{
+    background-color: rgb(255, 124, 124);
+    margin-top: 2%;
+    padding: 1%
+}
+
+
+fieldset{
+    background-color: rgb(255, 194, 194);
+}
+legend{
+    background-color: turquoise;
+}
+
+
+.dropDown p{
+    padding: 1%;
+    font-size: 1.2em;
+}
+
+.dropDown{
+    background-color: rgb(255, 146, 146);
+    align-items: center;
+    display: block;
+    margin: 2%;
+    padding: 2%;
+
+}
+
+/*
+
+.dropDown{
+    background-color: rgb(255, 146, 146);
+    align-items: center;
+}
+
+.dropDown-content{
+    display: none;
+    z-index: 1;
+}
+
+.dropDown:hover .dropDown-content{
+    background-color: whitesmoke;
+    display: block;
+    margin: 3% 3% 5% 3%;
+    padding: 3%;
+}
+*/

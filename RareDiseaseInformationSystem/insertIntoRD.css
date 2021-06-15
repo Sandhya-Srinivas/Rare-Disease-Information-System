@@ -1,0 +1,32 @@
+body{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.logoHead{
+    border: white solid;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+main{
+    margin: 0% 10% 0% 10%;
+    background-color: rgb(252, 180, 180);
+    margin-top: 2%;
+    padding: 2%;
+    font-size: 1.2em;
+}
+footer{
+    background-color: rgb(255, 112, 112);
+    margin-top: 2%;
+    padding: 1%;
+}
+
+
+fieldset{
+    margin: 1%;
+    background-color: rgb(250, 216, 216);
+}
+legend{
+    background-color: turquoise;
+}
